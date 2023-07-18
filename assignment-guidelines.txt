@@ -1,0 +1,20 @@
+main part:
+
+nav part(icon must)
+banner part(icon optional)
+online games funny videos(play button must)
+play instantly/play games(1 from 2)
+button section(hover option must)
+footer section(social media icon button -3 must)
+
+bonus part: 10 marks
+
+title and logo in the tab bar
+hover part play button 
+medium device responsive/tablet responsive
+
+optional part: no marks
+
+career section
+we are gamer section
+
