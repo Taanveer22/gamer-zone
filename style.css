@@ -9,6 +9,31 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.pink-letter {
+  color: #f948b2;
+}
+
+.black-letters {
+  color: #0b0223;
+}
+
+.navyblue-words {
+  color: #0b0223;
+}
+
+.pink-words {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grayish-para {
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /* nav related styles */
 
 .nav-container {
@@ -33,14 +58,6 @@
   font-weight: 700;
 }
 
-.pink-letter {
-  color: #f948b2;
-}
-
-.black-letters {
-  color: #0b0223;
-}
-
 .menu-container {
   display: flex;
   list-style: none;
@@ -62,7 +79,7 @@ header {
 }
 
 .banner-pic {
-  width: 100vh;
+  width: 400px;
 }
 
 .banner-title {
@@ -115,8 +132,8 @@ header {
 
 /* online games related styles */
 
-.online-games{
-    margin-bottom: 120px;
+.online-games {
+  margin-bottom: 120px;
 }
 
 .og-introduction {
@@ -130,21 +147,7 @@ header {
   margin-bottom: 20px;
 }
 
-.navyblue-words {
-  color: #0b0223;
-}
-
-.pink-words {
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .og-description {
-  color: #534c64;
-  font-size: 1rem;
-  font-weight: 400;
   margin-bottom: 48px;
 }
 .og-container {
@@ -165,8 +168,40 @@ header {
   font-weight: 500;
 }
 
-.og-conclusion{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.og-conclusion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* instantly section styles */
+.instantly {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.instantly-text {
+  text-align: center;
+}
+
+.instantly-photos {
+  margin-right: -50px;
+}
+
+.instant-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ins-pic1 {
+  width: 400px;
+}
+.ins-pic2 {
+  width: 200px;
+  position: relative;
+  bottom: -50px;
+  left: -500px;
 }
