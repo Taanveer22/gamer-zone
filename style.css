@@ -62,7 +62,7 @@
   font-weight: 700;
 }
 
-.menu-container {
+.menu-container ul li {
   display: flex;
   list-style: none;
   gap: 32px;
@@ -273,20 +273,37 @@ footer {
 
 .footer-list {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-weight: 500;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.footer-icons{
+  margin-bottom: 15px;
+}
+
+.footer-icons ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-icons ul li a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: #0b0223;
+  color: #FFF;
 }
 
 .footer-copyright {
