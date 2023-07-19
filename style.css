@@ -7,7 +7,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: "Work Sans", sans-serif;
+  width: 100vw;
 }
 
 .pink-letter {
@@ -35,7 +39,7 @@
 
 .grayish-para {
   color: #534c64;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 400;
 }
 
@@ -60,7 +64,7 @@ nav {
 }
 
 .frame-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -71,7 +75,7 @@ nav {
 .menu-container ul li {
   list-style: none;
   margin-right:20px ;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 500;
 }
 
@@ -93,19 +97,19 @@ header {
 }
 
 .banner-pic {
-  width: 400px;
+  width: 80vh;
 }
 
 .banner-title {
   color: #0b0223;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .banner-motto {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: 800;
   text-transform: uppercase;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -116,7 +120,7 @@ header {
 
 .banner-description {
   color: #534c64;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   text-transform: lowercase;
 }
@@ -126,7 +130,7 @@ header {
   border-radius: 48px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   border: 0;
 }
@@ -135,7 +139,7 @@ header {
   border-radius: 48px;
   background: #4ec5f7;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   border: 0;
 }
@@ -156,7 +160,7 @@ header {
 }
 
 .og-title {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -167,18 +171,17 @@ header {
 .og-container {
   display: flex;
   justify-content: space-around;
-  max-width: 1200px;
   margin-bottom: 10px;
   margin-left: 20px;
 }
 
 .og-img {
-  width: 250px;
+  width: 40vh;
 }
 
 .og-para {
   color: #534c64;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 500;
 }
 
@@ -206,7 +209,7 @@ header {
 }
 
 .ins-pic1 {
-  width: 400px;
+  width: 80vh;
 }
 .ins-pic2 {
   width: 200px;
@@ -223,8 +226,9 @@ header {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
+  padding-top: 80px;
   display: grid;
-  row-gap: 20px;
+  row-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
@@ -266,13 +270,13 @@ footer {
 }
 
 .footer-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .footer-list {
   color: #fff;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 600;
   display: flex;
   justify-content: space-around;
