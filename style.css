@@ -17,6 +17,10 @@
   color: #0b0223;
 }
 
+.white-letters {
+  color: #fff;
+}
+
 .navyblue-words {
   color: #0b0223;
 }
@@ -208,54 +212,85 @@ header {
 
 /* games catagory section styles */
 
-.games-catagory{
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+.games-catagory {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
-.games-cat1{
+.games-cat1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
-
 }
-.games-cat2{
+.games-cat2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
-
 }
 
-.game-type{
+.game-type {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.game-type:hover{
+.game-type:hover {
   border-radius: 50px;
   background: lightgray 50% / cover no-repeat;
 }
 
 /* footer related styles */
 
-footer{
-  background: #0B0223;
+footer {
+  background: #0b0223;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.footer-logo{
-   margin: 50px auto;
-   width: fit-content;
-   text-align: center;
-
+.footer-logo {
+  margin: 30px auto;
+  width: fit-content;
+  text-align: center;
 }
-.footer-zone{
-   margin: 0 auto;
-   width: fit-content;
-   text-align: center;
-
+.footer-zone {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
 }
 
+.footer-logo {
+  display: flex;
+}
 
+.footer-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 
+.footer-list {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 45px;
+}
+
+.footer-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
