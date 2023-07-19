@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -309,88 +310,3 @@ footer {
   font-size: 0.8rem;
   font-weight: 500;
 }
-
-
- /* media query for small devices  */
-
- @media screen and (max-width: 576px) {
-
-  nav,
-  .menu-container ul,
-  .banner-container,
-  .og-container,
-  .instantly  {
-    flex-direction: column;
-  }
-  
-  .games-catagory{
-    display: grid;
-    row-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: 50px;
-  }
-
-  .footer-list{ 
-    display: grid;
-    row-gap: 5px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-  
-  .footer-info{
-    display: grid;
-    row-gap: 5px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-  }
-
-  .og-container{
-    margin-left: 20px;
-  }
-
-  .instantly{
-    margin-bottom: -150px;
-  }
-  .instantly-text{
-    margin-bottom: 20px;
-  }
-
- .og-box{
-  margin-bottom: 15px;
- }
-
-
-
- }
-
- /* media query for medium devices */
-
- @media screen and (min-width: 577px) and (max-width: 768px) {
-  .banner-container,
-  .og-container,
-  .instantly {
-    flex-direction: column;
-  }
-
-  .instantly-text{
-    margin-bottom: 20px;
-  }
-
-  .og-container{
-    margin-left: 200px;
-  }
-
-  .instantly-photos{
-    margin-left: 50px;
-  }
-
-  .og-img{
-    width: 450px;
-  }
-
-  .og-box{
-    margin-bottom: 25px;
-   }
-  
- }
