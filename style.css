@@ -236,3 +236,26 @@ header {
   border-radius: 50px;
   background: lightgray 50% / cover no-repeat;
 }
+
+/* footer related styles */
+
+footer{
+  background: #0B0223;
+  padding-top: 50px;
+}
+
+.footer-logo{
+   margin: 50px auto;
+   width: fit-content;
+   text-align: center;
+
+}
+.footer-zone{
+   margin: 0 auto;
+   width: fit-content;
+   text-align: center;
+
+}
+
+
+
