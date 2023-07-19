@@ -149,7 +149,7 @@ header {
   margin-bottom: 120px;
 }
 
-.og-introduction {
+.og-text {
   margin: 0 auto;
   text-align: center;
 }
@@ -175,17 +175,12 @@ header {
   width: 250px;
 }
 
-.og-info {
+.og-para {
   color: #534c64;
   font-size: 1rem;
   font-weight: 500;
 }
 
-.og-conclusion {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
 /* instantly section styles */
 .instantly {
@@ -320,3 +315,16 @@ footer {
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+
+ /* media query for small device  */
+ @media screen and (max-width: 576px) {
+  nav,
+  .menu-container ul,
+  .banner-container,
+  .og-container,
+  .instantly  {
+    flex-direction: column;
+  }
+  
+ }
