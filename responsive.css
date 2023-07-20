@@ -1,7 +1,7 @@
 
  /* media query for small devices  */
 
- @media screen and (max-width: 576px) {
+ @media screen and (max-width: 400px) {
 
     nav,
     .menu-container ul,
@@ -54,7 +54,7 @@
   
    /* media query for medium devices */
   
-   @media screen and (min-width: 577px) and (max-width: 768px) {
+   @media screen and (min-width: 426px) and (max-width: 768px) {
     .banner-container,
     .og-container,
     .instantly {

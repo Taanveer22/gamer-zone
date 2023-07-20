@@ -45,6 +45,10 @@ body{
 
 /* nav related styles */
 
+header {
+  margin-bottom: 100px;
+}
+
 
 nav {
   display: flex;
@@ -53,7 +57,7 @@ nav {
   padding: 10px;
 }
 
-.frame-logo {
+.logo-container {
   display: flex;
   justify-content: start;
 }
@@ -84,20 +88,19 @@ nav {
    color:#3C354F;
 }
 
-header {
-  margin-bottom: 120px;
-}
 
 /* banner related styles */
 
 .banner-container {
+  max-width: 1200px;
+  margin: 50px 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.banner-pic {
-  width: 80vh;
+.banner-text{
+  height: 50vh;
 }
 
 .banner-title {
@@ -126,8 +129,8 @@ header {
 }
 
 .btn-pink {
-  padding: 21px 40px;
-  border-radius: 48px;
+  padding: 17px 34px;
+  border-radius: 44px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   color: white;
   font-size: 1rem;
@@ -135,8 +138,8 @@ header {
   border: 0;
 }
 .btn-bluelite {
-  padding: 21px 40px;
-  border-radius: 48px;
+  padding: 17px 34px;
+  border-radius: 44px;
   background: #4ec5f7;
   color: white;
   font-size: 1rem;
@@ -145,13 +148,29 @@ header {
 }
 
 .last-banner-description {
-  margin-bottom: 41px;
+  margin-bottom: 36px;
 }
 
-/* online games related styles */
+.banner-photo img {
+  height: 50vh;
+}
+
+/* unleash section styles */
+
+.unleash{
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.unleash-photo img{
+  height: 70vh;
+}
+
+/* online games section styles */
 
 .online-games {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .og-text {
