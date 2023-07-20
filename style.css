@@ -3,15 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
 /* shared css styles */
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body{
   font-family: "Work Sans", sans-serif;
-  width: 100vw;
+  box-sizing: border-box;
 }
 
 .pink-letter {
@@ -45,11 +45,6 @@ body{
 
 /* nav related styles */
 
-header {
-  margin-bottom: 100px;
-}
-
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -62,7 +57,7 @@ nav {
   justify-content: start;
 }
 .frame-img {
-  width: 86px;
+  width: 80px;
   height: 40px;
   margin-top: 10px;
 }
@@ -92,15 +87,14 @@ nav {
 /* banner related styles */
 
 .banner-container {
-  max-width: 1200px;
-  margin: 50px 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 
-.banner-text{
-  height: 50vh;
+.banner-photo img{
+  height: 60vh;
 }
 
 .banner-title {
@@ -129,8 +123,8 @@ nav {
 }
 
 .btn-pink {
-  padding: 17px 34px;
-  border-radius: 44px;
+  padding: 13px 26px;
+  border-radius: 35px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   color: white;
   font-size: 1rem;
@@ -138,8 +132,8 @@ nav {
   border: 0;
 }
 .btn-bluelite {
-  padding: 17px 34px;
-  border-radius: 44px;
+  padding: 13px 26px;
+  border-radius: 35px;
   background: #4ec5f7;
   color: white;
   font-size: 1rem;
@@ -148,7 +142,7 @@ nav {
 }
 
 .last-banner-description {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 .banner-photo img {
@@ -158,19 +152,41 @@ nav {
 /* unleash section styles */
 
 .unleash{
-  margin-bottom: 120px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  margin: 50px auto;
 }
 
-.unleash-photo img{
-  height: 70vh;
+ 
+
+.unleash-photo img{  
+  height: 60vh;
+}  
+
+.unleash-text{
+  text-align: right;
+} 
+
+.unleash-text h2{ 
+  margin-bottom: 5px;
 }
+.unleash-text p{
+  margin-bottom: 10px;
+}
+.unleash-text button{
+  margin-bottom: 10px;
+}
+.unleash-text h4{
+  margin-bottom: 5px;
+} 
+
 
 /* online games section styles */
 
-.online-games {
-  margin-bottom: 100px;
+
+.online-games{
+  margin-bottom: 70px;
 }
 
 .og-text {
@@ -206,11 +222,13 @@ nav {
 
 
 /* instantly section styles */
+
+
 .instantly {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
 }
 
 .instantly-text {
@@ -218,7 +236,7 @@ nav {
 }
 
 .instantly-photos {
-  margin-right: -50px;
+  margin-right: -70px;
 }
 
 .instant-title {
@@ -228,16 +246,18 @@ nav {
 }
 
 .ins-pic1 {
-  width: 80vh;
+  width: 70vh;
 }
 .ins-pic2 {
-  width: 200px;
+  width: 15vw;
   position: relative;
   bottom: -50px;
   left: -500px;
 }
 
+
 /* games catagory section styles */
+
 
 .games-catagory {
   background: linear-gradient(
@@ -245,7 +265,8 @@ nav {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  padding-top: 80px;
+  padding-top: 70px;
+  margin-bottom: -140px;
   display: grid;
   row-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -265,11 +286,13 @@ nav {
   background: lightgray 50% / cover no-repeat;
 } 
 
+
 /* footer related styles */
+
 
 footer {
   background: #0b0223;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
