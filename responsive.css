@@ -55,7 +55,6 @@
      }
   
      .og-img{
-      width: 50vw;
       height: 70vh;
      }
 
@@ -68,15 +67,14 @@
     }
   
    .ins-pic1{
-    height: 60vh;
-    width: 60vw;
+    height: 70vh;
    }
 
    .ins-pic2{
-    height: 20vh;
+    height: 25vh;
     position: relative;
-    left:-300px;
-    bottom: -10px;
+    left:-270px;
+    bottom: -20px;
   }
 
 

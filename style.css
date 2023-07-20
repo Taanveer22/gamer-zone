@@ -2,16 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
-
 /* common & shared css styles */
-
 
 * {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
   cursor: cell;
@@ -50,21 +48,21 @@ body{
   padding: 13px 26px;
   border-radius: 35px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
   border: 0;
 }
 
 .btn-pink:hover {
-  color:#021a0a;
+  color: #021a0a;
 }
 
 .btn-bluelite {
   padding: 13px 26px;
   border-radius: 35px;
   background: #4ec5f7;
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
   border: 0;
@@ -74,9 +72,7 @@ body{
   color: #021a0a;
 }
 
-
 /* navbar related styles */
-
 
 nav {
   display: flex;
@@ -89,6 +85,7 @@ nav {
   display: flex;
   justify-content: start;
 }
+
 .frame-img {
   width: 60px;
   height: 30px;
@@ -100,41 +97,50 @@ nav {
   font-weight: 700;
 }
 
-.menu-container ul{
+.menu-container ul {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .menu-container ul li {
   list-style: none;
-  margin-right:20px ;
+  margin-right: 20px;
   font-size: 0.8rem;
   font-weight: 500;
 }
 
 .menu-container li a {
-   text-decoration: none;
-   color: #e30b0b;
+  text-decoration: none;
+  color: #e30b0b;
 }
 
 .menu-container li a:hover {
-  color:#086808;
+  color: #086808;
 }
 
+.follow-btn {
+  padding: 5px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
 
 /* banner related styles */
-
 
 .banner-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  background: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
 }
 
-.banner-photo img{
+.banner-photo img {
   height: 60vh;
 }
-
 
 .banner-title {
   color: #0b0223;
@@ -154,7 +160,7 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
-.banner-text p{
+.banner-text p {
   margin-bottom: 10px;
 }
 
@@ -165,8 +171,6 @@ nav {
   text-transform: lowercase;
 }
 
-
-
 .last-banner-description {
   margin-bottom: 30px;
 }
@@ -175,45 +179,39 @@ nav {
   height: 50vh;
 }
 
-
 /* unleash(1) section styles */
 
-
-.unleash{
+.unleash {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 50px auto;
 }
 
- 
-
-.unleash-photo img{  
+.unleash-photo img {
   height: 60vh;
-}  
+}
 
-.unleash-text{
+.unleash-text {
   text-align: right;
-} 
+}
 
-.unleash-text h2{ 
+.unleash-text h2 {
   margin-bottom: 5px;
 }
-.unleash-text p{
+.unleash-text p {
   margin-bottom: 10px;
 }
-.unleash-text button{
+.unleash-text button {
   margin-bottom: 10px;
 }
-.unleash-text h4{
+.unleash-text h4 {
   margin-bottom: 5px;
-} 
-
+}
 
 /* online games(2) section styles */
 
-
-.online-games{
+.online-games {
   margin-bottom: 70px;
 }
 
@@ -239,7 +237,7 @@ nav {
 }
 
 .og-img {
-  width: 40vh;
+  height: 40vh;
 }
 
 .og-para {
@@ -248,9 +246,7 @@ nav {
   font-weight: 500;
 }
 
-
 /* instantly(3) section styles */
-
 
 .instantly {
   display: flex;
@@ -279,13 +275,11 @@ nav {
 .ins-pic2 {
   width: 15vw;
   position: relative;
-  bottom: -50px;
-  left: -500px;
+  bottom: -60px;
+  left: -440px;
 }
 
-
 /* games catagory(4) section styles */
-
 
 .games-catagory {
   background: linear-gradient(
@@ -294,7 +288,7 @@ nav {
     rgba(255, 66, 165, 0.03) 100%
   );
   padding-top: 70px;
-  margin-bottom: -140px;
+  margin-bottom: -120px;
   display: grid;
   row-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -309,12 +303,11 @@ nav {
 
 .game-type:hover {
   border-radius: 50px;
-  background: #EA2027 50% / cover no-repeat;
-} 
-
+  background: #ea2027 50% / cover no-repeat;
+  color: #fff;
+}
 
 /* footer related styles */
-
 
 footer {
   background: #0b0223;
@@ -361,11 +354,11 @@ footer {
   margin-bottom: 20px;
 }
 
-.footer-icons{
+.footer-icons {
   margin-bottom: 15px;
 }
 
-.footer-icons ul li{
+.footer-icons ul li {
   display: inline-block;
   margin: 0 10px;
 }
@@ -375,10 +368,10 @@ footer {
   height: 30px;
   display: block;
   background: #0b0223;
-  color: #FFF;
+  color: #fff;
 }
 
-.footer-icons ul li a:hover{
+.footer-icons ul li a:hover {
   color: #0e6b0e;
 }
 

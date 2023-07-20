@@ -2,19 +2,20 @@ main part:
 
 nav part(icon must) -   done
 banner part(icon optional) -   done
-online games funny videos(play button must)
+online games funny videos -done
 play instantly/play games(1 from 2) -   done
 button section(hover option must)- done
 footer section(social media icon button -3 must) -  done
+mobile responsive- done
 
 bonus part: 10 marks
 
 title and logo in the tab bar -done
 hover part play button 
-medium device responsive/tablet responsive 
+medium device responsive/tablet responsive -done
 
 optional part: no marks
 
-career section
+career section -nope
 we are gamer section - done
 
