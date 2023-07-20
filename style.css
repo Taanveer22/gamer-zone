@@ -80,7 +80,7 @@ nav {
 
 .menu-container li a {
    text-decoration: none;
-   color:#3C354F;
+   color: red;
 }
 
 
@@ -96,6 +96,7 @@ nav {
 .banner-photo img{
   height: 60vh;
 }
+
 
 .banner-title {
   color: #0b0223;
@@ -113,6 +114,10 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.banner-text p{
+  margin-bottom: 10px;
 }
 
 .banner-description {

@@ -1,11 +1,11 @@
 main part:
 
-nav part(icon must)
-banner part(icon optional)
+nav part(icon must) -   done
+banner part(icon optional) -   done
 online games funny videos(play button must)
-play instantly/play games(1 from 2)
+play instantly/play games(1 from 2) -   done
 button section(hover option must)
-footer section(social media icon button -3 must)
+footer section(social media icon button -3 must) -  done
 
 bonus part: 10 marks
 
@@ -16,5 +16,5 @@ medium device responsive/tablet responsive
 optional part: no marks
 
 career section
-we are gamer section
+we are gamer section - done
 

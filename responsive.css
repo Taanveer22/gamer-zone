@@ -1,12 +1,13 @@
 
  /* media query for small devices  */
 
- @media screen and (max-width: 400px) {
+ @media screen and (min-width:400px) and (max-width: 576px) {
 
 
     nav,
     .menu-container ul,
     .banner-container,
+    .unleash,
     .og-container,
     .instantly  {
       flex-direction: column;
@@ -14,7 +15,7 @@
     
     .games-catagory{
       display: grid;
-      row-gap: 20px;
+      row-gap: 15px;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       margin-bottom: 50px;
@@ -33,22 +34,42 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr ;
     }
-  
-    .og-container{
-      margin-left: 20px;
+    
+    .banner-container{
+      background: none;
+      margin-bottom: 20px;
     }
-  
+
+    .banner-photo img{
+      height: 70vh;
+    }
+
     .instantly{
-      margin-bottom: -150px;
+      margin-bottom: 30px;
     }
     .instantly-text{
       margin-bottom: 20px;
     }
   
+  .og-container{
+    width: 50vw;
+    margin: auto;
+  }
    .og-box{
     margin-bottom: 15px;
    }
-  
+
+   .og-img{
+    height: 50vh;
+   }
+   
+   .ins-pic1{
+    height: 70vh;
+   }
+   .ins-pic2{
+    width: 10vw;
+    margin: auto;
+   }
   
   
    }
@@ -56,11 +77,11 @@
 
 
 
-   
+
   
    /* media query for medium devices */
   
-   @media screen and (min-width: 426px) and (max-width: 768px) {
+   @media screen and (min-width: 577px) and (max-width: 992px) {
 
 
     .banner-container,
@@ -68,6 +89,10 @@
     .instantly {
       flex-direction: column;
     }
+
+    /* .instantly{
+      margin-bottom: 30px;
+    } */
   
     .instantly-text{
       margin-bottom: 20px;
