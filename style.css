@@ -12,6 +12,7 @@
 body{
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
+  cursor: cell;
 }
 
 .pink-letter {
@@ -41,6 +42,34 @@ body{
   color: #534c64;
   font-size: .8rem;
   font-weight: 400;
+}
+
+.btn-pink {
+  padding: 13px 26px;
+  border-radius: 35px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-pink:hover {
+  color:#021a0a;
+}
+
+.btn-bluelite {
+  padding: 13px 26px;
+  border-radius: 35px;
+  background: #4ec5f7;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-bluelite:hover {
+  color: #021a0a;
 }
 
 /* nav related styles */
@@ -81,6 +110,10 @@ nav {
 .menu-container li a {
    text-decoration: none;
    color: red;
+}
+
+.menu-container li a:hover {
+  color:green;
 }
 
 
@@ -127,24 +160,7 @@ nav {
   text-transform: lowercase;
 }
 
-.btn-pink {
-  padding: 13px 26px;
-  border-radius: 35px;
-  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  border: 0;
-}
-.btn-bluelite {
-  padding: 13px 26px;
-  border-radius: 35px;
-  background: #4ec5f7;
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  border: 0;
-}
+
 
 .last-banner-description {
   margin-bottom: 30px;
@@ -288,7 +304,7 @@ nav {
 
 .game-type:hover {
   border-radius: 50px;
-  background: lightgray 50% / cover no-repeat;
+  background: #EA2027 50% / cover no-repeat;
 } 
 
 
@@ -354,6 +370,10 @@ footer {
   display: block;
   background: #0b0223;
   color: #FFF;
+}
+
+.footer-icons ul li a:hover{
+  color: green;
 }
 
 .footer-copyright {

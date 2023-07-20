@@ -4,14 +4,14 @@ nav part(icon must) -   done
 banner part(icon optional) -   done
 online games funny videos(play button must)
 play instantly/play games(1 from 2) -   done
-button section(hover option must)
+button section(hover option must)- done
 footer section(social media icon button -3 must) -  done
 
 bonus part: 10 marks
 
-title and logo in the tab bar
+title and logo in the tab bar -done
 hover part play button 
-medium device responsive/tablet responsive
+medium device responsive/tablet responsive 
 
 optional part: no marks
 
