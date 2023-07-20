@@ -91,10 +91,26 @@
 
 
     .banner-container,
+    .unleash,
     .og-container,
     .instantly {
       flex-direction: column;
     }
+
+  .og-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .banner-photo img{
+    width: 70vw;
+    height: 90vh;
+  }
+
+  .unleash-photo img{  
+    height: 90vh;
+  }  
 
   
     .instantly-text{
