@@ -1,8 +1,10 @@
-/* work sans font link to this project */
+/* Work Sans - google font link  */
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
-/* shared css styles */
+
+/* common & shared css styles */
+
 
 * {
   margin: 0;
@@ -40,7 +42,7 @@ body{
 
 .grayish-para {
   color: #534c64;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
@@ -48,7 +50,7 @@ body{
   padding: 13px 26px;
   border-radius: 35px;
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  color: white;
+  color: #FFF;
   font-size: 1rem;
   font-weight: 600;
   border: 0;
@@ -62,7 +64,7 @@ body{
   padding: 13px 26px;
   border-radius: 35px;
   background: #4ec5f7;
-  color: white;
+  color: #FFF;
   font-size: 1rem;
   font-weight: 600;
   border: 0;
@@ -72,7 +74,9 @@ body{
   color: #021a0a;
 }
 
-/* nav related styles */
+
+/* navbar related styles */
+
 
 nav {
   display: flex;
@@ -86,8 +90,8 @@ nav {
   justify-content: start;
 }
 .frame-img {
-  width: 80px;
-  height: 40px;
+  width: 60px;
+  height: 30px;
   margin-top: 10px;
 }
 
@@ -103,21 +107,22 @@ nav {
 .menu-container ul li {
   list-style: none;
   margin-right:20px ;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
 .menu-container li a {
    text-decoration: none;
-   color: red;
+   color: #8f0909;
 }
 
 .menu-container li a:hover {
-  color:green;
+  color:#086808;
 }
 
 
 /* banner related styles */
+
 
 .banner-container {
   display: flex;
@@ -170,7 +175,9 @@ nav {
   height: 50vh;
 }
 
-/* unleash section styles */
+
+/* unleash(1) section styles */
+
 
 .unleash{
   display: flex;
@@ -203,7 +210,7 @@ nav {
 } 
 
 
-/* online games section styles */
+/* online games(2) section styles */
 
 
 .online-games{
@@ -237,12 +244,12 @@ nav {
 
 .og-para {
   color: #534c64;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
 
-/* instantly section styles */
+/* instantly(3) section styles */
 
 
 .instantly {
@@ -267,7 +274,7 @@ nav {
 }
 
 .ins-pic1 {
-  width: 70vh;
+  height: 70vh;
 }
 .ins-pic2 {
   width: 15vw;
@@ -277,7 +284,7 @@ nav {
 }
 
 
-/* games catagory section styles */
+/* games catagory(4) section styles */
 
 
 .games-catagory {
@@ -293,8 +300,6 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
-
-
 
 .game-type {
   display: flex;
@@ -322,6 +327,7 @@ footer {
   width: fit-content;
   text-align: center;
 }
+
 .footer-zone {
   margin: 0 auto;
   width: fit-content;
@@ -339,7 +345,7 @@ footer {
 
 .footer-list {
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 600;
   display: flex;
   justify-content: space-around;
@@ -373,7 +379,7 @@ footer {
 }
 
 .footer-icons ul li a:hover{
-  color: green;
+  color: #0e6b0e;
 }
 
 .footer-copyright {
